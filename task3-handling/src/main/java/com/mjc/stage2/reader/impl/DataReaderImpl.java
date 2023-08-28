@@ -32,7 +32,7 @@ public class DataReaderImpl implements DataReader {
         }
         StringBuilder stringBuilder = new StringBuilder();
         for (String s : lines
-                ) {
+        ) {
             stringBuilder.append(s).append("\n");
         }
         return stringBuilder.toString();
